@@ -1,4 +1,4 @@
-num =24
+num = 24
 numTwo = 7
 numThree = 8
 numFour = 4
