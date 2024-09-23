@@ -28,5 +28,6 @@ int main(void){
     ptransportation = transportation/income *100;
     pexpenses = expenses/income *100;
     printf("Your expenses are %.1f%% of your income\n", pexpenses);
+    printf("Your transportation is %.1f%% of your income\n", ptransportation);
     return 0;
 }
