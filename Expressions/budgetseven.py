@@ -1,16 +1,26 @@
 print("Hello, and welcome to your financial calculator!\n")
-income = input("What is your monthly income?: ")
-rent = input("What is your monthly rent: ")
-utilities = input("What is your monthly utilities: ")
-grocries = input("What is your monthly groceries: ")
-transportation =input("What is your monthly transportation costs: ")
-print("Your monthly income is ${income:.2f}\n")
-print("Your monthly expenses are ${expenses:.2f}\n")
-print("Your monthly savings is ${savings:.2f}\n")
-print("Your monthly spending money is ${spending:.2f}\n")
-print("Your rent is {int(prent)}% of your monthly income\n")
-print("Your utilities are {int(putilities)}% of your monthly income\n")
-print("Your groceries are {int(pgrocieries)}% of your monthly income\n")
-print("Your transportation is {int(ptransportation)}% of your monthly income\n")
-print("Your savings are {int(psavings)}% of your monthly income\n")
-print("Your expenses are {int(pexpenses)}% of your monthly income\n")
+income = int(input("What is your monthly income?: "))
+rent = int(input("What is your monthly rent: "))
+utilities = int(input("What is your monthly utilities: "))
+groceries = int(input("What is your monthly groceries: "))
+transportation = int(input("What does your monthly transportation cost: "))
+
+expenses = rent + utilities + transportation + groceries
+savings = income *.2
+total = income - savings - expenses
+print("Your monthly income is $",income)
+print("Your monthly expenses are $",expenses)
+print("Your monthly savings are $",savings)
+print("You have $",total, "left to spend")
+
+prent = rent/income *100
+putilities = utilities/income *100
+pgroceries = groceries/income *100
+ptransportation = transportation/income *100
+pexpenses = expenses/income *100
+psavings = income/savings
+print("Your rent is",prent ,"of your monthly income")
+print("Your utilities are",putilities, "of your monthly income")
+print("Your groceries are",pgroceries, "of your monthly income")
+print("Your transportation is",ptransportation,"of your monthly income")
+print("Your savings is",psavings,"of your monthly income")
