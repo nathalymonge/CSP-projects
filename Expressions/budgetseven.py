@@ -16,11 +16,11 @@ putilities = utilities/income*100
 pgroceries = groceries/income*100
 ptransportation = transportation/income*100
 pexpenses = expenses/income*100
-psavings = income/savings
+psavings = income/savings*100
 pexpenses = expenses/income*100
-print("Your rent is",prent ,"of your monthly income")
-print("Your utilities are",putilities, "of your monthly income")
-print("Your groceries are",pgroceries, "of your monthly income")
+print("Your rent is",prent,"% of your monthly income")
+print("Your utilities are",putilities, "% of your monthly income")
+print("Your groceries are",pgroceries, "% of your monthly income")
 print("Your transportation is",ptransportation,"of your monthly income")
-print("Your savings are",psavings,"of your monthly income")
-print("Your expenses are",pexpenses,"of your income")
+print("Your savings are",psavings,"% of your monthly income")
+print("Your expenses are",pexpenses,"% of your income")
