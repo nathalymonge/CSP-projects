@@ -9,6 +9,6 @@ int main(void){
 strcat(sentence, "~~~");
     strcat(sentence, name);
     strcat(sentence, "~~~");
-    printf("%s", sentence);
+    printf("%s\n", sentence);
     return 0;
 }
