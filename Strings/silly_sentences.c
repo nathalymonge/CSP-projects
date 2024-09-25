@@ -18,7 +18,6 @@ int main(void){
     strcat(sentence,verb);
     strcat(sentence, " and bought a ");
     strcat(sentence, noun);
-    strcat(sentence, ".");
     strcat(sentence, ".\n");
     printf("%s", sentence);
     return 0;
