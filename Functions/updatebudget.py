@@ -1,3 +1,6 @@
+def inp(type):
+    return int(input(f"What is your monthly{type}"))
+
 print("Hello, and welcome to your financial calculator!\n")
 income = int(input("What is your monthly income?: "))
 rent = int(input("What is your monthly rent: "))
