@@ -1,5 +1,7 @@
 def inp(type):
-    return input(f"What is your monthly {type}: ")
+    insert = input(f"What is your monthly {type}: ")
+    
+    return int(insert)
 
 def percent(type,amount):
     per = amount/income *100
