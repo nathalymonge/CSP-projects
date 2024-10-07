@@ -1,6 +1,10 @@
 #include<stdio.h>
-char sibilings[8][20] = {
-int main(void){
-    printf("hello world:");
-    return 0;
+char sibilings[8][20] = {"Jessica", "Eva", "Nathaly", "Israel"};
+int i;
+int main(){
+    while (i < 8){
+        printf("%s Nathaly", sibilings[i]);
+        i+=1;
+    }
+return 0;
 }
